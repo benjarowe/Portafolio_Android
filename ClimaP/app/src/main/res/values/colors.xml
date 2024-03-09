@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Clima-->
+    <color name="verde">#92C7CF</color>
+    <color name="verde_agua">#AAD7D9</color>
+    <color name="claro">#FBF9F1</color>
+    <color name="pastel">#E5E1DA</color>
+
+</resources>
+

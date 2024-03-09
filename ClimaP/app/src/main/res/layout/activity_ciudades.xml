@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pastel"
+    android:orientation="vertical"
+    tools:context=".Ciudades">
+
+    <TextView
+        android:id="@+id/grados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="128dp"
+        android:gravity="center"
+        android:text="@string/grados"
+        android:textColor="@color/verde_agua"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/nublado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grados"
+        android:layout_alignStart="@+id/grados"
+        android:layout_alignEnd="@+id/grados"
+        android:layout_marginTop="58dp"
+        android:gravity="center"
+        android:text="@string/nublado"
+        android:textColor="@color/verde_agua"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nublado"
+        android:gravity="center"
+        android:text="@string/ciudad"
+        android:textColor="@color/verde_agua"
+        android:textSize="30sp" />
+
+</RelativeLayout>
