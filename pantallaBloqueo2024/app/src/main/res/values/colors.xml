@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azul">#1E2857</color>
+    <color name="azulClarito">#4B5BAA</color>
+    <color name="celeste">#00ADD8</color>
+    <color name="celesteOscur">#015F77</color>
+    <color name="verdeRar">#46734B</color>
+
+    <!--pagina-->
+    <color name="armada">#265073</color>
+    <color name="verde_azulado">#2D9596</color>
+    <color name="frio">#9AD0C2</color>
+    <color name="sabio">#F1FADA</color>
+</resources>

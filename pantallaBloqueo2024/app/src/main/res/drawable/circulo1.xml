@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:thickness="10dp"
+    android:useLevel="false"
+    android:innerRadiusRatio="2.3">
+    <gradient
+        android:startColor="@color/verde_azulado"
+        android:centerColor="@color/armada"
+        android:endColor="@color/frio">
+
+    </gradient>
+<!--
+    <solid
+        android:color="@color/azulClarito">
+    </solid>-->
+
+</shape>
