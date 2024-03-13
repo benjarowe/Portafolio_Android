@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivFotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/platillo01"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPrecio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="26sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:text="25€" />
+
+        <RatingBar
+            android:id="@+id/tvRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:numStars="5"
+            android:rating="3"/>
+    </LinearLayout>
+
+</LinearLayout>
