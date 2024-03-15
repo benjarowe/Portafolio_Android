@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PantBloq4</string>
+    <string name="Clima">Clima</string>
     <string name="grados">23°</string>
     <string name="nublado">Nublado</string>
     <string name="ciudad">Argentina</string>

@@ -21,31 +21,31 @@
 
     <NumberPicker
         android:id="@+id/numPickerHs"
-        android:layout_width="77dp"
-        android:layout_height="189dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
         app:layout_constraintEnd_toStartOf="@id/numPickerMints"
         app:layout_constraintHorizontal_chainStyle="packed"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/progressBar"
         app:layout_constraintTop_toTopOf="@id/progressBar" />
 
     <NumberPicker
         android:id="@+id/numPickerMints"
-        android:layout_width="80dp"
-        android:layout_height="187dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
         app:layout_constraintEnd_toStartOf="@id/numPickerSeg"
-        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toEndOf="@id/numPickerHs"
         app:layout_constraintTop_toTopOf="@id/progressBar" />
 
     <NumberPicker
         android:id="@+id/numPickerSeg"
-        android:layout_width="77dp"
-        android:layout_height="187dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintEnd_toEndOf="@id/progressBar"
         app:layout_constraintStart_toEndOf="@id/numPickerMints"
         app:layout_constraintTop_toTopOf="@id/progressBar" />
 
