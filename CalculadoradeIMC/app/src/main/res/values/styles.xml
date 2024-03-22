@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--app:cardCornerRadius="40dp"-->
+    <style name="diseño">
+        <item name="android:backgroundTint">@color/blanco</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+    <style name="Fem_Mas">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+    <style name="Card_peso_edad">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="backgroundTint">@color/crema</item>
+        <item name="tint">@color/celeste_claro</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+
+</resources>
