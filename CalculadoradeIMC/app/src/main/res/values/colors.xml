@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blanco">#FFFFFF</color>
+    <color name="azul">#008DDA</color>
+    <color name="celeste">#41C9E2</color>
+    <color name="celeste_claro">#ACE2E1</color>
+    <color name="crema">#F7EEDD</color>
+</resources>

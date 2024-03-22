@@ -14,4 +14,12 @@
         android:text="Resultado"
         android:textSize="18sp"
         android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvAgeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rango de IMC según la edad"
+        android:textSize="16sp"
+        android:textColor="@color/blanco"
+        android:layout_marginTop="8dp" />
 </LinearLayout>
