@@ -8,10 +8,10 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbarMenu"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:backgroundTint="@color/naranja"
+        android:backgroundTint="@color/azul"
         android:background="?attr/colorPrimary"
         android:title="Toolbar Title"/>
 

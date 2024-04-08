@@ -1,52 +1,56 @@
-package com.estudiandokotlin.fichero.Categories
+package com.example.listas.Categories
 
-import android.view.TextureView
 import android.view.View
+import com.example.listas.R
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.estudiandokotlin.R
-import com.estudiandokotlin.fichero.TaskCategory
+import com.example.listas.Categorias.TaskCategory
 
-class CategoriesViewHolder (view:View): RecyclerView.ViewHolder(view) {
+// ViewHolder para elementos de categorías en el RecyclerView.
+class CategoriesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-    private val CategorieName:TextView = view.findViewById(R.id.CategorieName)
-    private val divider:View =view.findViewById(R.id.divider)
+    private val CategorieName: TextView = view.findViewById(R.id.CategorieName)
+    private val divider: View = view.findViewById(R.id.divider)
     private val viewContainer: CardView = view.findViewById(R.id.viewContainer)
 
+    // Método para renderizar una categoría y configurar su apariencia.
+    fun render(taskCategory: TaskCategory, onItemSelected: (Int) -> Unit) {
 
-    fun render(taskCategory: TaskCategory, onItemSelected: (Int) -> Unit){
-
-        val color = if (taskCategory.isSelected){
+        // Determina el color de fondo basado en si la categoría está seleccionada o no.
+        val color = if (taskCategory.isSelected) {
             R.color.colorDeCarta
-        }else{
+        } else {
             R.color.colorDetext
         }
 
         viewContainer.setCardBackgroundColor(ContextCompat.getColor(viewContainer.context, color))
 
-        itemView.setOnClickListener{onItemSelected(layoutPosition)}
+        // Escucha los clics en la vista y notifica la posición seleccionada.
+        itemView.setOnClickListener { onItemSelected(layoutPosition) }
 
-        when(taskCategory){
-            TaskCategory.Business ->{
+        // Configura el nombre de la categoría y el color del separador basado en el tipo de categoría.
+        when (taskCategory) {
+            TaskCategory.Business -> {
                 CategorieName.text = " Negocio"
                 divider.setBackgroundColor(
                     ContextCompat.getColor(divider.context, R.color.bussiness_category)
                 )
             }
-            TaskCategory.Other ->{
+            TaskCategory.Other -> {
                 CategorieName.text = " Otros"
                 divider.setBackgroundColor(
                     ContextCompat.getColor(divider.context, R.color.other_category)
                 )
             }
-            TaskCategory.Personal ->{
+            TaskCategory.Personal -> {
                 CategorieName.text = "Personal"
                 divider.setBackgroundColor(
                     ContextCompat.getColor(divider.context, R.color.personal_category)
                 )
             }
+            else -> { } // No hace nada para otros casos
         }
     }
 }

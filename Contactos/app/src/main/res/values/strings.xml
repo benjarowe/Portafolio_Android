@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Contactos</string>
+    <string name="titulo_search">Buscar contacto...</string>
+
+    <!--Detalle-->
+    <string name="edadDetalle">Edad</string>
+    <string name="pesoDetalle">Peso</string>
+    <string name="telefonoDetalle">Telefono</string>
+    <string name="email">Email</string>
+    <string name="direccion">Direccion</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.estudiandokotlin.fichero
+package com.example.listas.Categorias
 
 sealed class TaskCategory (var isSelected:Boolean = true){
     object Personal : TaskCategory()

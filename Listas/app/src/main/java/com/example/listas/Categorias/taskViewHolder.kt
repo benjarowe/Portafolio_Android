@@ -1,14 +1,15 @@
-package com.estudiandokotlin.fichero.Categories
+package com.example.listas.Categories
 
-import android.content.res.ColorStateList
-import android.graphics.Paint
 import android.view.View
+import com.example.listas.R
+import android.graphics.Paint
 import android.widget.CheckBox
 import android.widget.TextView
+import android.content.res.ColorStateList
+import com.example.listas.Categorias.task
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.estudiandokotlin.R
-import com.estudiandokotlin.fichero.TaskCategory
+import com.example.listas.Categorias.TaskCategory
 
 //creado para categoria 2 / se copia de categoriesviewHolder
 class taskViewHolder (view: View): RecyclerView.ViewHolder(view){
@@ -32,10 +33,11 @@ class taskViewHolder (view: View): RecyclerView.ViewHolder(view){
             TaskCategory.Business -> R.color.bussiness_category
             TaskCategory.Personal -> R.color.personal_category
             TaskCategory.Other -> R.color.other_category
+            else -> {}
         }
 
         cbTask.buttonTintList = ColorStateList.valueOf(
-            ContextCompat.getColor(cbTask.context, color)
+            ContextCompat.getColor(cbTask.context, color as Int)
         )
 
     }

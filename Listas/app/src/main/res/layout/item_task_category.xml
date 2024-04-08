@@ -24,8 +24,7 @@
             android:layout_marginLeft="8dp"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="19sp"
-            />
+            android:textSize="19sp" />
 
         <View
             android:id="@+id/divider"
@@ -33,8 +32,6 @@
             android:layout_height="2dp"
             tools:background="@color/white"/>
 
-
     </LinearLayout>
-
 
 </androidx.cardview.widget.CardView>

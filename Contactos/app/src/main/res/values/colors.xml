@@ -2,7 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="naranja">#e65100</color>
+    <!--<color name="naranja">#e65100</color>
     <color name="rojiso">#ac1900</color>
-    <color name="naranjaClaro">#ff833a</color>
+    <color name="naranjaClaro">#ff833a</color>-->
+    <color name="azul">#124076</color>
+    <color name="verde">#7F9F80</color>
+    <color name="amarilloClaro">#F9E897</color>
+    <color name="amarillo">#FFC374</color>
 </resources>

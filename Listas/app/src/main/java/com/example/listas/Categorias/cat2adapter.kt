@@ -1,9 +1,11 @@
 package com.estudiandokotlin.fichero.Categories
 
-import android.view.LayoutInflater
+import com.example.listas.R
 import android.view.ViewGroup
+import android.view.LayoutInflater
+import com.example.listas.Categorias.task
 import androidx.recyclerview.widget.RecyclerView
-import com.estudiandokotlin.R
+import com.example.listas.Categories.taskViewHolder
 
 //creado para categoria 2 / se copia de adapter
 

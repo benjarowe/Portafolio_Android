@@ -3,15 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".AppsCompleto.Detalle">
+    android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:backgroundTint="@color/naranja"
+        android:backgroundTint="@color/azul"
         android:title="Toolbar Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -152,7 +151,7 @@
         app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toEndOf="@+id/emailDetall"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        android:text="Bolgachina 2933" />
+        android:text="La ezquina 2933" />
 
     <TextView
         android:id="@+id/textView11"
