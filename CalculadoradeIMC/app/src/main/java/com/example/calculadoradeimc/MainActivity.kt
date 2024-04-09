@@ -58,11 +58,11 @@ class MainActivity : AppCompatActivity() {
         // Configuración de los listeners de los botones de género
         binding.masculino.setOnClickListener {
             carHombre = true
-            binding.masculino.setCardBackgroundColor(selectorColor) // Establecer color de fondo celeste claro
-            binding.femenino.setCardBackgroundColor(Color.WHITE) // Restablecer color de fondo blanco
-            // Cambiar la imagen del masculino a blanco
+            binding.masculino.setCardBackgroundColor(selectorColor) // Establece color de fondo
+            binding.femenino.setCardBackgroundColor(Color.WHITE)
+            // Cambia la imagen del masculino a blanco
             binding.masculino.findViewById<ImageView>(R.id.imgMasculino).setColorFilter(Color.WHITE)
-            // Cambiar la imagen del femenino a celeste claro
+            // Cambia la imagen del femenino a celeste claro
             binding.femenino.findViewById<ImageView>(R.id.imgfemenino).setColorFilter(selectorColor)
         }
 
@@ -70,16 +70,16 @@ class MainActivity : AppCompatActivity() {
             carHombre = false
             binding.femenino.setCardBackgroundColor(selectorColor)
             binding.masculino.setCardBackgroundColor(Color.WHITE)
-            // Cambiar la imagen del femenino a blanco
+            // Cambia la imagen del femenino a blanco
             binding.femenino.findViewById<ImageView>(R.id.imgfemenino).setColorFilter(Color.WHITE)
-            // Cambiar la imagen del masculino a celeste_claro
+            // Cambia la imagen del masculino a celeste_claro
             binding.masculino.findViewById<ImageView>(R.id.imgMasculino).setColorFilter(selectorColor)
         }
 
         // Listener para el cambio de valor en el rango de altura
         binding.rangAltura.addOnChangeListener { _, value, _ ->
             rangAlturaInt = value.toInt()
-            binding.medidAlturNumer.text = "$rangAlturaInt cm" // Actualizar la vista con la altura seleccionada
+            binding.medidAlturNumer.text = "$rangAlturaInt cm" // Actualiza la vista con la altura seleccionada
         }
 
         // Listeners para los botones de sumar y restar peso
@@ -115,30 +115,30 @@ class MainActivity : AppCompatActivity() {
 
             val imc = calcularIMC(calPeso.toDouble(), rangAlturaInt.toDouble())
 
-            resultIMC(imc) // Calcular y mostrar el resultado del IMC
+            resultIMC(imc) // Calcula y muestra el resultado del IMC
         }
     }
 
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
-        // Realiza las actualizaciones necesarias en tu interfaz de usuario aquí
+        // Realiza las actualizaciones necesarias en la interfaz
     }
 
     private fun updatePesoView() {
-        binding.vistNumPeso.text = calPeso.toString() // Actualizar la vista con el peso actual
+        binding.vistNumPeso.text = calPeso.toString() // Actualiza la vista con el peso actual
     }
 
     private fun updateEdadView() {
-        binding.VistNumEdad.text = calEdad.toString() // Actualizar la vista con la edad actual
+        binding.VistNumEdad.text = calEdad.toString() // Actualiza la vista con la edad actual
     }
 
     private fun calcularIMC(peso: Double, altura: Double): Double {
-        val alturaMetros = altura / 100 // Convertir la altura a metros
-        return peso / (alturaMetros * alturaMetros) // Calcular el IMC
+        val alturaMetros = altura / 100 // Convierte la altura a metros
+        return peso / (alturaMetros * alturaMetros) // Calcula el IMC
     }
 
     private fun calculateAgeGroup(edad: Int, esHombre: Boolean): String {
-        // Calcular el rango de IMC según la edad y género
+        // Calcula el rango de IMC según la edad y género
         return if (esHombre) {
             when {
                 edad in 18..24 -> "min: 18.5 - max: 24.9"
@@ -178,7 +178,7 @@ class MainActivity : AppCompatActivity() {
         val inflater = layoutInflater
         val dialogView = inflater.inflate(R.layout.ventana_emergente, null)
 
-        // Obtener el rango de IMC según la edad
+        // Obtiene el rango de IMC según la edad
         val ageGroup = calculateAgeGroup(calEdad, carHombre)
 
         builder.setView(dialogView)
@@ -189,10 +189,10 @@ class MainActivity : AppCompatActivity() {
             }
 
         val tvResult: TextView = dialogView.findViewById(R.id.tvResult)
-        tvResult.text = "Tu IMC: ${String.format("%.2f", result)}"  // Mostrar el IMC calculado
+        tvResult.text = "Tu IMC: ${String.format("%.2f", result)}"  // Muestra el IMC calculado
 
         val tvAgeGroup: TextView = dialogView.findViewById(R.id.tvAgeGroup)
-        tvAgeGroup.text = "Rango de IMC según edad = $ageGroup" // Mostrar el rango de IMC según edad
+        tvAgeGroup.text = "Rango de IMC según edad = $ageGroup" // Muestra el rango de IMC según edad
 
         val alertDialog = builder.create()
         alertDialog.show()

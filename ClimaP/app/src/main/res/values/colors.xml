@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Clima-->
+    <color name="negro">#12191B</color>
     <color name="verde">#92C7CF</color>
     <color name="verde_agua">#AAD7D9</color>
     <color name="claro">#FBF9F1</color>
