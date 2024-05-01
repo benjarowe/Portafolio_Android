@@ -25,7 +25,8 @@ que infla un diseño XML (popup_layout.xml) que contiene TextViews para mostrar 
 Manejo de eventos: Se utilizan listeners para manejar eventos como clics en botones (setOnClickListener) y
 cambios en el rango de altura (addOnChangeListener).
 Dependencias: Se utilizan varias dependencias de AndroidX y Material Design para implementar funcionalidades como RangeSlider y FloatingActionButton.
-![Fondo-de-pantalla_-Escandalosos_](https://github.com/benjarowe/Portfolio_Android/assets/160912053/6ebc02d8-8f91-4559-8565-38c04c20a941)
+![calculadoradeimc](https://github.com/benjarowe/Portfolio_Android/assets/160912053/d2af69b9-4b41-4c11-bcb9-c504a22e764e)
+
 
 
 [Mostrando completo](https://drive.google.com/file/d/1LpbOab268vkvvmm2nYC8ICSXn5Q84n7m/view?usp=drive_link)
