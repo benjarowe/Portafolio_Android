@@ -1,4 +1,5 @@
 La aplicación CalculadoradeIMC:
+
 Es una calculadora de índice de masa corporal (IMC) para dispositivos Android. 
 El IMC es una medida que evalúa el peso corporal en relación con la altura y se utiliza comúnmente para determinar si una persona tiene un peso saludable.
 
