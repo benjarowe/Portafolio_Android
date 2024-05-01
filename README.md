@@ -25,6 +25,6 @@ cambios en el rango de altura (addOnChangeListener).
 Dependencias: Se utilizan varias dependencias de AndroidX y Material Design para implementar funcionalidades como RangeSlider y FloatingActionButton.
 
 
-[Sin ingresar genero](https://gist.github.com/6b559ff28723c2274f391e6295decc31.git)
+[Sin ingresar genero](https://drive.google.com/file/d/1LpbOab268vkvvmm2nYC8ICSXn5Q84n7m/view?usp=drive_link)
 
 [Mostrando completo](https://drive.google.com/file/d/1LxtAPu5W6nUowX3252nqEwheOFAClUnz/view?usp=drive_link)
