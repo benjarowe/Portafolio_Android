@@ -1,4 +1,6 @@
-La aplicación CalculadoradeIMC:  Este proyecto está desarrollado utilizando Kotlin.
+La aplicación CalculadoradeIMC:  
+
+Este proyecto está desarrollado utilizando Kotlin.
 
 Es una calculadora de índice de masa corporal (IMC) para dispositivos Android. 
 El IMC es una medida que evalúa el peso corporal en relación con la altura y se utiliza comúnmente para determinar si una persona tiene un peso saludable.
@@ -35,7 +37,9 @@ Dependencias: Se utilizan varias dependencias de AndroidX y Material Design para
 
 --------------------------------------
 
-La aplicacion ContactosP:  Este proyecto está desarrollado utilizando Kotlin.
+La aplicacion ContactosP:  
+
+Este proyecto está desarrollado utilizando Kotlin.
 
 Esta es una aplicación móvil diseñada para facilitar la gestión y organización de contactos en dispositivos Android. Con esta aplicación, puedes agregar, editar y eliminar contactos, así como ver detalles específicos de cada uno de ellos, todo desde la comodidad de tu teléfono inteligente.
 
@@ -56,7 +60,9 @@ Arquitectura MVVM: La arquitectura Modelo-Vista-VistaModelo (MVVM) se utilizó p
 
 --------------------------------------
 
-La aplicacion RecyclerView:  Este proyecto está desarrollado utilizando Kotlin.
+La aplicacion RecyclerView:  
+
+Este proyecto está desarrollado utilizando Kotlin.
 
 Esta es una aplicación de ejemplo que demuestra cómo crear una lista de platillos utilizando RecyclerView y SwipeRefreshLayout en Android. La aplicación muestra una lista de platillos con su nombre, precio y rating. Además, permite actualizar la lista mediante un gesto de deslizamiento hacia abajo para refrescar.
 
