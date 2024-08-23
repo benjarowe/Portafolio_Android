@@ -84,3 +84,61 @@ SwipeRefreshLayout: Se utilizó SwipeRefreshLayout para permitir al usuario actu
 
 --------------------------------------
 
+Pantalla de Bloqueo :
+
+Descripción general: La aplicación es un temporizador personalizado que permite al usuario seleccionar un intervalo de tiempo (horas, minutos, y segundos) y bloquear la pantalla del dispositivo durante ese tiempo. Al finalizar el temporizador, la pantalla se desbloquea, y el usuario recibe una notificación.
+
+Propósito: Facilitar un control temporal sobre el uso del dispositivo, ideal para aquellos que desean concentrarse en una tarea sin distracciones.
+
+2. Características Principales
+Selector de tiempo: El usuario puede configurar horas, minutos y segundos para el temporizador utilizando NumberPickers.
+Superposición de pantalla: Durante el tiempo establecido, la aplicación muestra una pantalla de bloqueo que se superpone a todas las demás aplicaciones mediante el permiso SYSTEM_ALERT_WINDOW.
+
+Interfaz amigable: La aplicación presenta una interfaz simple con diseño de ConstraintLayout y animaciones como el uso de una ProgressBar.
+
+Control del temporizador: Se utiliza un Handler para manejar el tiempo restante en intervalos de 1 segundo.
+
+Compatibilidad con versiones modernas de Android: Gestión de permisos de superposición en tiempo de ejecución para dispositivos con Android 6.0 (Marshmallow) y versiones superiores.
+
+3. Tecnologías Usadas
+Lenguaje de programación: Kotlin.
+Framework: Android SDK.
+Librerías y APIs utilizadas:
+WindowManager: Para gestionar la superposición de la pantalla de bloqueo.
+Handler: Para controlar la ejecución del temporizador.
+NumberPicker: Para que el usuario seleccione el tiempo.
+Toast: Notificaciones visuales al usuario.
+Componentes de Android:
+Activity: La pantalla principal está controlada por MainActivity.
+Service: Un servicio en segundo plano (TemporizadorService) para manejar el temporizador incluso cuando la app no está activa.
+Interacción con el sistema operativo: Gestión de permisos como la superposición de pantalla (SYSTEM_ALERT_WINDOW).
+
+5. Estructura del Proyecto
+Arquitectura: El proyecto sigue un enfoque modular básico con separación de responsabilidades entre:
+MainActivity: La interfaz y la lógica para iniciar el temporizador.
+TemporizadorService: Gestiona la ejecución del temporizador en segundo plano.
+TemporizadorView: Personalización de la vista que muestra el tiempo restante.
+Patrones de diseño:
+Runnable: El temporizador utiliza un Runnable ejecutado en un Handler para disminuir el tiempo restante cada segundo.
+Service: El uso de un servicio para realizar tareas en segundo plano asegura que el temporizador funcione incluso si la aplicación se minimiza.
+
+7. Detalles Técnicos Implementados
+Interfaz de usuario (UI):
+Diseño usando ConstraintLayout para posicionar de forma flexible los elementos, como los NumberPickers y el botón de inicio.
+Vista personalizada: La superposición de pantalla utiliza un RelativeLayout con un ImageView para el fondo y un TextView para mostrar el tiempo restante.
+Gestión de datos:
+Permisos: Implementación de permisos en tiempo de ejecución para mostrar la superposición de pantalla.
+Temporizador: El temporizador funciona con un Handler y un Runnable que actualiza el tiempo restante cada segundo.
+Navegación:
+No hay navegación entre pantallas, pero la app gestiona la superposición sobre la pantalla principal del dispositivo.
+Pruebas y depuración:
+Debugging: Se ha utilizado el sistema de logs y la depuración de Android Studio para solucionar problemas relacionados con permisos y comportamiento en segundo plano.
+
+9. Pruebas y Depuración
+Pruebas funcionales: Se ha probado la correcta ejecución del temporizador, la superposición de pantalla y la gestión de permisos en diferentes versiones de Android.
+Pruebas de usabilidad: La interfaz ha sido testeada para asegurar que el usuario pueda fácilmente configurar y entender el funcionamiento del temporizador.
+Depuración: Se ha realizado depuración activa para corregir errores relacionados con la superposición en diferentes dispositivos y versiones de Android.
+10. Conclusión
+La aplicación Pantalla Bloqueo Temporizador demuestra el uso de múltiples componentes y tecnologías de Android como el manejo de WindowManager, servicios en segundo plano, y la implementación de temporizadores eficientes con Handler y Runnable.
+Este proyecto puede evolucionar implementando funcionalidades adicionales, como alertas sonoras al finalizar el temporizador, o estadísticas del uso del temporizador por parte del usuario.
+
