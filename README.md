@@ -1,4 +1,4 @@
-La aplicación CalculadoradeIMC:  
+Calculadora de IMC:  
 
 Este proyecto está desarrollado utilizando Kotlin.
 
