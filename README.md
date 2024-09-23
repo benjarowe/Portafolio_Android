@@ -37,7 +37,7 @@ Dependencias: Se utilizan varias dependencias de AndroidX y Material Design para
 
 --------------------------------------
 
-La aplicacion ContactosP:  
+La aplicacion Agenda de Contactos:  
 
 Este proyecto está desarrollado utilizando Kotlin.
 
@@ -84,7 +84,7 @@ SwipeRefreshLayout: Se utilizó SwipeRefreshLayout para permitir al usuario actu
 
 --------------------------------------
 
-Pantalla de Bloqueo :
+Bloqueo de Pantalla :
 
 Descripción general: La aplicación es un temporizador personalizado que permite al usuario seleccionar un intervalo de tiempo (horas, minutos, y segundos) y bloquear la pantalla del dispositivo durante ese tiempo. Al finalizar el temporizador, la pantalla se desbloquea, y el usuario recibe una notificación.
 
