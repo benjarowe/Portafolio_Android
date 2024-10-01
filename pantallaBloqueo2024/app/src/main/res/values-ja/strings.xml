@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">スクリーンロック2024</string>
+    <string name="iniciar">開始</string>
+    <string name="tiempo_terminado">時間切れ</string>
+</resources>

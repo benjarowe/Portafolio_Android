@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bloqueioTela2024</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="tiempo_terminado">O tempo acabou</string>
+</resources>

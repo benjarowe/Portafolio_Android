@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pantallaBloqueo2024</string>
+    <string name="iniciar">Start</string>
+    <string name="tiempo_terminado">Time is up</string>
+</resources>

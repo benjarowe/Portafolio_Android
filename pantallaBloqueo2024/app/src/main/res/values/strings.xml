@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">pantallaBloqueo2024</string>
+    <string name="app_name" translatable="false">pantallaBloqueo2024</string>
+    <string name="iniciar" translatable="false">Iniciar</string>
+    <string name="tiempo_terminado" translatable="false">Tiempo terminado</string>
 </resources>

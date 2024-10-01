@@ -8,8 +8,18 @@
     <!-- Este permiso es necesario para que la aplicación pueda gestionar permisos de superposición. -->
     <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
 
-    <!-- Este permiso permite a la aplicacion hacer vibrar el dispositivo. Este puede ser util para avisar al usuario cuando se agota el tiempo -->
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- Permite que la aplicación mantenga el CPU despierto incluso cuando la pantalla esté apagada o el dispositivo esté inactivo.
+Esto es útil si quieres que una tarea continúe ejecutándose en segundo plano sin ser interrumpida. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Permite a la aplicación desactivar el bloqueo de pantalla, lo que significa que puede quitar la pantalla de bloqueo (Keyguard) para permitir un acceso más rápido al dispositivo.
+    Es útil en aplicaciones que requieren una interacción directa sin tener que desbloquear el dispositivo. -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <!-- Permite a la aplicación recibir el evento cuando el dispositivo ha terminado de arrancar.
+    Con este permiso, tu aplicación puede ejecutar tareas automáticamente después de que el dispositivo se reinicie, como iniciar un servicio o ejecutar una actividad. -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
 
     <application
         android:allowBackup="true"

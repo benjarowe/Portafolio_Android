@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/frio"
         android:layout_margin="10dp"
-        android:text="Iniciar"
+        android:text="@string/iniciar"
         android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@id/progressBar"
