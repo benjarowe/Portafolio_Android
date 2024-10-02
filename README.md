@@ -57,6 +57,11 @@ La aplicación Pantalla Bloqueo Temporizador demuestra el uso de múltiples comp
 Este proyecto puede evolucionar implementando funcionalidades adicionales, como alertas sonoras al finalizar el temporizador, o estadísticas del uso del temporizador por parte del usuario.
 
 
+
+
+
+
+
 -------------------------------
 
 Calculadora de IMC:  
