@@ -57,9 +57,15 @@ La aplicación Pantalla Bloqueo Temporizador demuestra el uso de múltiples comp
 Este proyecto puede evolucionar implementando funcionalidades adicionales, como alertas sonoras al finalizar el temporizador, o estadísticas del uso del temporizador por parte del usuario.
 
 
-<img src="https://github.com/benjarowe/Portfolio_Android/issues/1#issue-2561038021" alt="calculadoradeimc" width="20%">
-
 ![iconobloq2](https://github.com/user-attachments/assets/8d162abe-7a86-4760-9e4f-9dc607f74960)
+
+![iniciando](https://github.com/user-attachments/assets/49c40790-cec6-4b01-9f5a-7a1254a71905)
+
+![volteoMovil](https://github.com/user-attachments/assets/ab8c8538-72a0-43d7-876c-6b5716323654)
+
+
+
+https://github.com/user-attachments/assets/f83cfa09-7d0e-4d46-bea3-f4a55d8caafb
 
 
 -------------------------------
