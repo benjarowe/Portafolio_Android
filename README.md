@@ -59,6 +59,7 @@ Este proyecto puede evolucionar implementando funcionalidades adicionales, como 
 
 <img src="https://github.com/benjarowe/Portfolio_Android/issues/1#issue-2561038021" alt="calculadoradeimc" width="20%">
 
+![iconobloq2](https://github.com/user-attachments/assets/8d162abe-7a86-4760-9e4f-9dc607f74960)
 
 
 -------------------------------
