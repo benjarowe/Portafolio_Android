@@ -63,9 +63,9 @@ Pantalla principal
 <img src="https://github.com/user-attachments/assets/49c40790-cec6-4b01-9f5a-7a1254a71905" alt="iniciando" width="20%">
 
 Modo horizontal
-<img src="https://github.com/user-attachments/assets/ab8c8538-72a0-43d7-876c-6b5716323654" alt="volteoMovil" width="20%">
+<img src="https://github.com/user-attachments/assets/ab8c8538-72a0-43d7-876c-6b5716323654" alt="volteoMovil" width="50%">
 
-
+Video completo (cuando comienza el conteo bloquea el movil)
 <video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/f83cfa09-7d0e-4d46-bea3-f4a55d8caafb" type="video/mp4">
   Your browser does not support the video tag.
