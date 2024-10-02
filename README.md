@@ -80,13 +80,12 @@ La aplicación permite calcular y evaluar el IMC de manera fácil y amigable, ut
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/d2af69b9-4b41-4c11-bcb9-c504a22e764e" alt="calculadoradeimc" width="20%">
 <br>
 <h2>Video funcion</h2>
+<br>
 <video width="20" height="20" controls>
-https://github.com/user-attachments/assets/57d79323-80fe-4d96-ad73-4e7ea6540c28
+<source src="https://github.com/user-attachments/assets/57d79323-80fe-4d96-ad73-4e7ea6540c28" type="video/mp4">
+Your browser does not support the video tag.
 </video>
 <br>
-<h2>Video funcion</h2>
-<br>
-[Video: Funcionamiento App 2](https://drive.google.com/file/d/1LxtAPu5W6nUowX3252nqEwheOFAClUnz/view?usp=drive_link)
 
 --------------------------------------
 
@@ -127,27 +126,42 @@ Aplicación móvil para gestionar y organizar contactos en dispositivos Android,
 **Conclusión:**  
 La aplicación Agenda de Contactos ofrece una solución completa para gestionar contactos de forma eficiente y amigable, incorporando tecnologías y patrones modernos de desarrollo.
 
-
+<h2>ContactosP</h2>
+<br>
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/f0b2a289-e5f9-4bfb-9349-e5ecc85b69a0" alt="ContactosP" width="20%">
+<h2>ContactosP</h2>
+<br>
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/5c41fa47-c3e8-45dc-8460-1189b9e8748a" alt="ContactosP" width="20%">
+<h2>ContactosP</h2>
+<br>
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/f08869a0-2507-4547-bbf3-d04622741954" alt="ContactosP" width="20%">
 
 
 --------------------------------------
 
-La aplicacion RecyclerView:  
+### Aplicación RecyclerView
 
-Este proyecto está desarrollado utilizando Kotlin.
+**Descripción:**  
+Aplicación de ejemplo que muestra cómo crear una lista de platillos utilizando RecyclerView y SwipeRefreshLayout en Android. Presenta una lista de platillos con su nombre, precio y rating, y permite actualizar la lista con un gesto de deslizamiento hacia abajo.
 
-Esta es una aplicación de ejemplo que demuestra cómo crear una lista de platillos utilizando RecyclerView y SwipeRefreshLayout en Android. La aplicación muestra una lista de platillos con su nombre, precio y rating. Además, permite actualizar la lista mediante un gesto de deslizamiento hacia abajo para refrescar.
+**Funcionalidades Destacadas:**
+- **Lista de Platillos:**  
+  Muestra una lista de platillos con nombre, precio y rating usando RecyclerView.
+  
+- **SwipeRefreshLayout:**  
+  Permite al usuario actualizar la lista de platillos mediante un gesto de deslizamiento hacia abajo para refrescar la pantalla.
 
-Funcionalidades Destacadas:
+**Tecnologías Utilizadas:**
+- **Android Studio:**  
+  Entorno de desarrollo integrado (IDE) oficial para el desarrollo de aplicaciones Android.
+  
+- **RecyclerView:**  
+  Implementado para mostrar la lista de platillos de manera eficiente y escalable.
+  
+- **SwipeRefreshLayout:**  
+  Utilizado para permitir la actualización de la lista mediante un gesto de deslizamiento hacia abajo.
 
-Lista de Platillos: Muestra una lista de platillos con su nombre, precio y rating utilizando RecyclerView.
-SwipeRefreshLayout: Permite al usuario actualizar la lista de platillos mediante un gesto de deslizamiento hacia abajo para refrescar la pantalla.
-Tecnologías Utilizadas:
+**Conclusión:**  
+La aplicación RecyclerView es una muestra práctica de cómo utilizar componentes de Android para crear listas dinámicas y mejoradas con interacción del usuario.
 
-Android Studio: La aplicación se desarrolló en Android Studio, el entorno de desarrollo integrado (IDE) oficial para Android.
-RecyclerView: Se implementó RecyclerView para mostrar la lista de platillos de manera eficiente y escalable.
-SwipeRefreshLayout: Se utilizó SwipeRefreshLayout para permitir al usuario actualizar la lista de platillos mediante un gesto de deslizamiento hacia abajo.
 
