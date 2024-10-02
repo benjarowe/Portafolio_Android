@@ -91,20 +91,20 @@ https://github.com/user-attachments/assets/99e7379f-67ab-4c02-9404-bc18de02d2fd
 
 --------------------------------------
 
-# Aplicación "Contactos"
+### Aplicación "Contactos"
 
-## Descripción
+**Descripción**
 
 La aplicación "Contactos" permite gestionar y organizar contactos en dispositivos Android. Su objetivo es facilitar la adición, edición, eliminación y visualización de detalles de contactos de manera intuitiva y eficiente.
 
-## Funcionalidades
+**Funcionalidades**
 
 - **Agregar Contactos**: Añadir nuevos contactos con información relevante (nombre, número de teléfono, correo electrónico, dirección).
 - **Editar Contactos**: Modificar información de contactos existentes.
 - **Eliminar Contactos**: Eliminar contactos de forma segura.
 - **Visualización de Detalles**: Ver todos los detalles de un contacto específico.
 
-## Tecnologías Utilizadas
+**Tecnologías Utilizadas**
 
 - **Kotlin**
 - **Android Studio**
@@ -112,14 +112,14 @@ La aplicación "Contactos" permite gestionar y organizar contactos en dispositiv
 - **Glide** (carga de imágenes)
 - **MVVM** (Modelo-Vista-VistaModelo)
 
-## Beneficios
+**Beneficios**
 
 - **Interfaz Intuitiva**: Navegación fácil y amigable.
 - **Rendimiento Optimizado**: Acceso rápido a la base de datos con Room.
 - **Escalabilidad**: Estructura MVVM permite agregar nuevas funcionalidades sin afectar la estabilidad.
 - **Portabilidad**: Funciona en una amplia gama de dispositivos Android.
 
-## Conclusión
+**Conclusión:**
 
 La aplicación "Contactos" refleja mis habilidades en desarrollo de aplicaciones móviles y mi compromiso con la creación de software de calidad. Este proyecto es una muestra de mi capacidad para resolver problemas cotidianos y mi deseo de crecer profesionalmente en el ámbito de la programación móvil.
 
