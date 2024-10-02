@@ -75,6 +75,10 @@ Este proyecto puede evolucionar implementando funcionalidades adicionales, como 
   Your browser does not support the video tag.
 </video>
 
+
+https://github.com/user-attachments/assets/9c06108f-1ffc-421e-8756-cfda7e706cd1
+
+
 -------------------------------
 
 Calculadora de IMC:  
