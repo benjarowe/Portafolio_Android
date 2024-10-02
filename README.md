@@ -56,9 +56,9 @@ Depuración: Se ha realizado depuración activa para corregir errores relacionad
 La aplicación Pantalla Bloqueo Temporizador demuestra el uso de múltiples componentes y tecnologías de Android como el manejo de WindowManager, servicios en segundo plano, y la implementación de temporizadores eficientes con Handler y Runnable.
 Este proyecto puede evolucionar implementando funcionalidades adicionales, como alertas sonoras al finalizar el temporizador, o estadísticas del uso del temporizador por parte del usuario.
 
-<img src="https://github.com/benjarowe/Portfolio_Android/blob/master/iconobloq2.jpg?raw=true" alt="calculadoradeimc" width="20%">
 
-
+<img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/d2af69b9-4b41-4c11-bcb9-c504a22e764e" alt="calculadoradeimc" width="20%">
+<img src="https://github.com/benjarowe/Portfolio_Android/issues/1#issue-2561038021" alt="calculadoradeimc" width="20%">
 
 
 
