@@ -70,7 +70,7 @@ Este proyecto puede evolucionar implementando funcionalidades adicionales, como 
 <br>
 <h2>Video completo (cuando comienza el conteo bloquea el movil)</h2>
 <br>
-<video width="20" height="50" controls>
+<video width="20" height="20" controls>
   <source src="https://github.com/user-attachments/assets/f83cfa09-7d0e-4d46-bea3-f4a55d8caafb.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
