@@ -58,32 +58,33 @@ Este proyecto puede evolucionar implementando funcionalidades adicionales, como 
 
 <br>
 
-Bloqueo de Pantalla
-Descripción:
+### Bloqueo de Pantalla
+
+**Descripción:**  
 Aplicación que permite al usuario establecer un temporizador personalizado para bloquear la pantalla del dispositivo, ayudando a concentrarse sin distracciones. Al finalizar el tiempo, la pantalla se desbloquea y se envía una notificación.
 
-Características Principales:
+**Características Principales:**
+- **Selector de tiempo:** Configuración de horas, minutos y segundos usando NumberPickers.
+- **Superposición de pantalla:** Muestra una pantalla de bloqueo mediante el permiso SYSTEM_ALERT_WINDOW.
+- **Interfaz amigable:** Diseño simple con animaciones y ProgressBar.
+- **Compatibilidad:** Maneja permisos de superposición en dispositivos Android 6.0 y superiores.
 
-Selector de tiempo: Configuración de horas, minutos y segundos usando NumberPickers.
-Superposición de pantalla: Muestra una pantalla de bloqueo mediante el permiso SYSTEM_ALERT_WINDOW.
-Interfaz amigable: Diseño simple con animaciones y ProgressBar.
-Compatibilidad: Maneja permisos de superposición en dispositivos Android 6.0 y superiores.
-Tecnologías Usadas:
+**Tecnologías Usadas:**
+- **Lenguaje:** Kotlin
+- **Marco:** SDK de Android
+- **Componentes:** 
+  - **MainActivity:** Controla la interfaz principal.
+  - **TemporizadorService:** Gestiona el temporizador en segundo plano.
+  - **Permisos:** Manejo de permisos de superposición.
 
-Lenguaje: Kotlin
-Marco: SDK de Android
-Componentes:
-MainActivity: Controla la interfaz principal.
-TemporizadorService: Gestiona el temporizador en segundo plano.
-Permisos: Manejo de permisos de superposición.
-Estructura del Proyecto:
+**Estructura del Proyecto:**
+- **Arquitectura modular:** Separación de responsabilidades entre las actividades y servicios.
+- **Patrones de diseño:** Uso de Runnable y Handler para el temporizador.
 
-Arquitectura modular: Separación de responsabilidades entre las actividades y servicios.
-Patrones de diseño: Uso de Runnable y Handler para el temporizador.
-Pruebas y Depuración:
+**Pruebas y Depuración:**
+- Pruebas de funcionalidad y usabilidad realizadas para asegurar un buen desempeño y experiencia de usuario.
 
-Pruebas de funcionalidad y usabilidad realizadas para asegurar un buen desempeño y experiencia de usuario.
-Conclusión:
+**Conclusión:**  
 La aplicación demuestra el uso eficiente de componentes y tecnologías de Android, con potencial para añadir nuevas funcionalidades como alertas sonoras o estadísticas de uso.
 
 <h2>icono de la apps</h2>
