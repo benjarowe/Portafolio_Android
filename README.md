@@ -56,16 +56,20 @@ Depuración: Se ha realizado depuración activa para corregir errores relacionad
 La aplicación Pantalla Bloqueo Temporizador demuestra el uso de múltiples componentes y tecnologías de Android como el manejo de WindowManager, servicios en segundo plano, y la implementación de temporizadores eficientes con Handler y Runnable.
 Este proyecto puede evolucionar implementando funcionalidades adicionales, como alertas sonoras al finalizar el temporizador, o estadísticas del uso del temporizador por parte del usuario.
 
-icono de la apps
+<h2>icono de la apps</h2>
+<br>
 <img src="https://github.com/user-attachments/assets/8d162abe-7a86-4760-9e4f-9dc607f74960" alt="iconobloq2" width="20%">
-
-Pantalla principal
+<br>
+<h2>Pantalla principal</h2>
+<br>
 <img src="https://github.com/user-attachments/assets/49c40790-cec6-4b01-9f5a-7a1254a71905" alt="iniciando" width="20%">
-
-Modo horizontal
+<br>
+<h2>Modo horizontal</h2>
+<br>
 <img src="https://github.com/user-attachments/assets/ab8c8538-72a0-43d7-876c-6b5716323654" alt="volteoMovil" width="50%">
-
-Video completo (cuando comienza el conteo bloquea el movil)
+<br>
+<h2>Video completo (cuando comienza el conteo bloquea el movil)</h2>
+<br>
 <video width="320" height="240" controls>
   <source src="https://github.com/user-attachments/assets/f83cfa09-7d0e-4d46-bea3-f4a55d8caafb" type="video/mp4">
   Your browser does not support the video tag.
