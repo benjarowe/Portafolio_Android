@@ -132,12 +132,6 @@ La aplicación Agenda de Contactos ofrece una solución completa para gestionar 
 <br>
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/f0b2a289-e5f9-4bfb-9349-e5ecc85b69a0" alt="ContactosP" width="20%">
 <h2>ContactosP</h2>
-<br>
-<img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/5c41fa47-c3e8-45dc-8460-1189b9e8748a" alt="ContactosP" width="20%">
-<h2>ContactosP</h2>
-<br>
-<img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/f08869a0-2507-4547-bbf3-d04622741954" alt="ContactosP" width="20%">
-
 
 --------------------------------------
 
