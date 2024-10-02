@@ -126,7 +126,6 @@ La aplicación "Contactos" refleja mis habilidades en desarrollo de aplicaciones
 <h2>ContactosP</h2>
 <br>
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/f0b2a289-e5f9-4bfb-9349-e5ecc85b69a0" alt="ContactosP" width="20%">
-<h2>ContactosP</h2>
 
 --------------------------------------
 
