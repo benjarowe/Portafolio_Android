@@ -56,6 +56,36 @@ Depuración: Se ha realizado depuración activa para corregir errores relacionad
 La aplicación Pantalla Bloqueo Temporizador demuestra el uso de múltiples componentes y tecnologías de Android como el manejo de WindowManager, servicios en segundo plano, y la implementación de temporizadores eficientes con Handler y Runnable.
 Este proyecto puede evolucionar implementando funcionalidades adicionales, como alertas sonoras al finalizar el temporizador, o estadísticas del uso del temporizador por parte del usuario.
 
+<br>
+
+Bloqueo de Pantalla
+Descripción:
+Aplicación que permite al usuario establecer un temporizador personalizado para bloquear la pantalla del dispositivo, ayudando a concentrarse sin distracciones. Al finalizar el tiempo, la pantalla se desbloquea y se envía una notificación.
+
+Características Principales:
+
+Selector de tiempo: Configuración de horas, minutos y segundos usando NumberPickers.
+Superposición de pantalla: Muestra una pantalla de bloqueo mediante el permiso SYSTEM_ALERT_WINDOW.
+Interfaz amigable: Diseño simple con animaciones y ProgressBar.
+Compatibilidad: Maneja permisos de superposición en dispositivos Android 6.0 y superiores.
+Tecnologías Usadas:
+
+Lenguaje: Kotlin
+Marco: SDK de Android
+Componentes:
+MainActivity: Controla la interfaz principal.
+TemporizadorService: Gestiona el temporizador en segundo plano.
+Permisos: Manejo de permisos de superposición.
+Estructura del Proyecto:
+
+Arquitectura modular: Separación de responsabilidades entre las actividades y servicios.
+Patrones de diseño: Uso de Runnable y Handler para el temporizador.
+Pruebas y Depuración:
+
+Pruebas de funcionalidad y usabilidad realizadas para asegurar un buen desempeño y experiencia de usuario.
+Conclusión:
+La aplicación demuestra el uso eficiente de componentes y tecnologías de Android, con potencial para añadir nuevas funcionalidades como alertas sonoras o estadísticas de uso.
+
 <h2>icono de la apps</h2>
 <br>
 <img src="https://github.com/user-attachments/assets/8d162abe-7a86-4760-9e4f-9dc607f74960" alt="iconobloq2" width="20%">
