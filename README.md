@@ -91,42 +91,37 @@ https://github.com/user-attachments/assets/99e7379f-67ab-4c02-9404-bc18de02d2fd
 
 --------------------------------------
 
-### Agenda de Contactos
+# Aplicación "Contactos"
 
-**Descripción:**  
-Aplicación móvil para gestionar y organizar contactos en dispositivos Android, permitiendo agregar, editar y eliminar contactos, y ver detalles específicos de cada uno.
+## Descripción
 
-**Funcionalidades Destacadas:**
-- **Agregar y Editar Contactos:**  
-  Permite agregar nuevos contactos con información básica (nombre, empresa, edad, peso, dirección, teléfono y correo) y editar detalles de contactos existentes.
-  
-- **Galería de Fotos Integrada:**  
-  Personaliza contactos añadiendo fotos de perfil desde la galería o seleccionando imágenes predeterminadas.
-  
-- **Detalles Completos de Contactos:**  
-  Muestra detalles de cada contacto, incluyendo foto de perfil, información personal y datos de contacto.
-  
-- **Búsqueda Rápida:**  
-  Función de búsqueda para encontrar contactos filtrando por nombre.
+La aplicación "Contactos" permite gestionar y organizar contactos en dispositivos Android. Su objetivo es facilitar la adición, edición, eliminación y visualización de detalles de contactos de manera intuitiva y eficiente.
 
-**Tecnologías Utilizadas:**
-- **Android Studio:**  
-  Entorno de desarrollo integrado (IDE) oficial para el desarrollo de aplicaciones Android.
-  
-- **Android SDK:**  
-  Kit de Desarrollo de Software oficial utilizado para crear la aplicación.
-  
-- **Glide:**  
-  Biblioteca para carga de imágenes, optimizando el rendimiento y la gestión de memoria.
-  
-- **Room:**  
-  Biblioteca de persistencia de datos SQLite para la gestión de datos en la aplicación.
-  
-- **Arquitectura MVVM:**  
-  Estructura modular y escalable utilizando el patrón Modelo-Vista-VistaModelo (MVVM) para organizar el código.
+## Funcionalidades
 
-**Conclusión:**  
-La aplicación Agenda de Contactos ofrece una solución completa para gestionar contactos de forma eficiente y amigable, incorporando tecnologías y patrones modernos de desarrollo.
+- **Agregar Contactos**: Añadir nuevos contactos con información relevante (nombre, número de teléfono, correo electrónico, dirección).
+- **Editar Contactos**: Modificar información de contactos existentes.
+- **Eliminar Contactos**: Eliminar contactos de forma segura.
+- **Visualización de Detalles**: Ver todos los detalles de un contacto específico.
+
+## Tecnologías Utilizadas
+
+- **Kotlin**
+- **Android Studio**
+- **Room** (gestión local de datos)
+- **Glide** (carga de imágenes)
+- **MVVM** (Modelo-Vista-VistaModelo)
+
+## Beneficios
+
+- **Interfaz Intuitiva**: Navegación fácil y amigable.
+- **Rendimiento Optimizado**: Acceso rápido a la base de datos con Room.
+- **Escalabilidad**: Estructura MVVM permite agregar nuevas funcionalidades sin afectar la estabilidad.
+- **Portabilidad**: Funciona en una amplia gama de dispositivos Android.
+
+## Conclusión
+
+La aplicación "Contactos" refleja mis habilidades en desarrollo de aplicaciones móviles y mi compromiso con la creación de software de calidad. Este proyecto es una muestra de mi capacidad para resolver problemas cotidianos y mi deseo de crecer profesionalmente en el ámbito de la programación móvil.
 
 <h2>ContactosP</h2>
 <br>
