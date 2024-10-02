@@ -1,4 +1,4 @@
-### Bloqueo de Pantalla
+### Bloqueo de Pantalla (preparando para subir a play store)
 
 **Descripción:**  
 Aplicación que permite al usuario establecer un temporizador personalizado para bloquear la pantalla del dispositivo, ayudando a concentrarse sin distracciones. Al finalizar el tiempo, la pantalla se desbloquea y se envía una notificación.
@@ -123,7 +123,7 @@ La aplicación "Contactos" permite gestionar y organizar contactos en dispositiv
 
 La aplicación "Contactos" refleja mis habilidades en desarrollo de aplicaciones móviles y mi compromiso con la creación de software de calidad. Este proyecto es una muestra de mi capacidad para resolver problemas cotidianos y mi deseo de crecer profesionalmente en el ámbito de la programación móvil.
 
-<h2>ContactosP</h2>
+<h2>Pantalla principal</h2>
 <br>
 <img src="https://github.com/benjarowe/Portfolio_Android/assets/160912053/f0b2a289-e5f9-4bfb-9349-e5ecc85b69a0" alt="ContactosP" width="20%">
 
