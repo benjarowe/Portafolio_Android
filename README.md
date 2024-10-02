@@ -82,8 +82,7 @@ La aplicación permite calcular y evaluar el IMC de manera fácil y amigable, ut
 <h2>Video funcion</h2>
 <br>
 <video width="20" height="20" controls>
-<source src="https://github.com/user-attachments/assets/57d79323-80fe-4d96-ad73-4e7ea6540c28" type="video/mp4">
-Your browser does not support the video tag.
+  <source src="https://github.com/user-attachments/assets/bf406d81-6bbb-4027-ac20-b8eed5401de6" type="video/mp4">
 </video>
 <br>
 
