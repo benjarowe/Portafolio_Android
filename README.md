@@ -146,7 +146,7 @@ Aplicación de ejemplo que muestra cómo crear una lista de platillos utilizando
   Entorno de desarrollo integrado (IDE) oficial para el desarrollo de aplicaciones Android.
   
 - **RecyclerView:**  
-  Implementado para mostrar la lista de platillos de manera eficiente y escalable.
+  Implementado para mostrar la lista de platillos de manera eficiente y escalable.-
   
 - **SwipeRefreshLayout:**  
   Utilizado para permitir la actualización de la lista mediante un gesto de deslizamiento hacia abajo.
